@@ -13,7 +13,7 @@ console.log("Impar")
 /*  
 |   caso teste       | dado de entrada   |   saida esterada     | resultado
 | 1                   |     56           |     par              |par
-|  2                  |   0,8            |        par           | erro de valor fracionado
+|  2                  |   0,8            |        par           | 
 |   3                 |   -42            |           par        |par
 |    4                |   6545           |             impar    |impar
 |     5               |    37            |              impar   |impar
