@@ -114,7 +114,7 @@ switch(herryPotter){
 }
 
 
-/*
+
 let condicao=true
 let condicao1=false
 if(condicao1&&condicao1){
@@ -128,15 +128,20 @@ if(!condicao1){
     console.log("a condicacao e vdd")
 }
 
-*/
+
+const ensinoMedio = prompt("vc ja completou o ensino medio?").toLowerCase()==='sim'
+const idade = prompt("vc e maior de idade?")>=18
+const faculdade= prompt("vc ja esta cursando uma faculdade?").toLowerCase()==='sim'
+if(ensinoMedio&&idade&&!faculdade){
+    console.log("vc pode estudar nessa faculdade?")
+}else{
+    console.log("vc não pode fazer faculdade")
+}
 
 
 
 
 
-const ensinoMedio = prompt("vc ja completou o ensino medio?")
-const idade = prompt("vc e maior de idade?")
-const faculdade= prompt("vc ja esta cursando uma faculdade?")
 
 
 
